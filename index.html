@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hi! I'm Hanum</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jeju+Myeongjo&display=swap">
 
   <body>
-    
+    <!-- Header -->
     <header>
       <nav>
         <ul>
@@ -21,23 +22,29 @@
       </nav>
     </header>
 
-    
-    <section id="home" class="section home">
-      <div class="intro">
-        <p class="small">Hi, my name is</p>
-        <h1>Hanum Widianingtias</h1>
-        <p class="desc">
-          Passionate Information Systems student exploring technology, 
-          application development, and data analysis to build innovative digital solutions.
-        </p>
-      </div>
-      <img src="/assets/profile_image.png" alt="Hanum" class="profile" />
-    </section>
+    <!-- ===== HOME SECTION ===== -->
+<section id="home" class="section home">
+  <div class="intro">
+    <p class="small">Hi, my name is</p>
+    <h1>Hanum Widianingtias</h1>
+    <p class="desc">
+      Passionate Information Systems student exploring technology, 
+      application development, and data analysis to build innovative digital solutions.
+    </p>
+  </div>
 
-    
-    <section id="about" class="section about">
+  <div class="photo-container">
+    <img src="assets/profile_img.png" alt="Hanum" class="profile" />
+  </div>
+</section>
+
+
+
+
+   <section id="about" class="section about">
       <div class="about-container">
-        <img src="/assets/profile_about.png" alt="about" class="about-img" />
+        <img src="/assets/profile_abt.png" alt="about" class="about-img" />
+       
         <p>
           My name is Hanum, an Information Systems student at MH Thamrin University.
           I have a strong interest in technology, especially in application development,
@@ -53,21 +60,22 @@
         </p>
       </div>
     </section>
-
-   
-    <section id="project">
+  
+    <!-- Projects Section -->
+    <section id="project" class="section project">
       <h2>Projects</h2>
       <div class="project-list">
         <div class="project-item">
-          <img src="/assets/project1.png" alt="Project 1" />
+          <img src="assets/project1.png" alt="Project 1" />
           <p>
             The Ecampus application project that I developed using Android Studio was an individual
             assignment during my 4th semester. This application focuses on student data management
             with its main features consisting of inputting student data and viewing student data.
           </p>
         </div>
+
         <div class="project-item">
-          <img src="/assets/project2.png" alt="Project 2" />
+          <img src="assets/project2.png" alt="Project 2" />
           <p>
             The Belajarin Aja Yuk! application project was a team collaboration that I worked on
             together with my classmates as part of a course assignment. This application was
@@ -78,39 +86,42 @@
       </div>
     </section>
 
-    
-    <section id="skill" >
+    <!-- Skills Section -->
+    <section id="skill" class="section skill">
       <h2>Skills</h2>
       <div class="skill-icons">
-       <img src="assets/skill_icon.png" alt="skill_icon" class="skill-img"/>
+        <img src="assets/skill_icon.png" alt="Skill Icon" class="skill-img" />
+      </div>
     </section>
 
-    
+    <!-- Contact Section -->
     <section id="contact" class="section contact">
       <h2>Contact</h2>
-      <p>Let’s build something great together!  Whether it’s collaboration,zfeedback, or simply saying hello, I’d love to hear from you. Connect with me anytime!</p>
+      <p>
+        Let’s build something great together! Whether it’s collaboration, feedback, 
+        or simply saying hello, I’d love to hear from you. Connect with me anytime!
+      </p>
       <form>
         <input type="text" placeholder="Name" required />
         <input type="email" placeholder="Email" required />
         <textarea rows="4" placeholder="Message"></textarea>
         <button type="submit">SEND MESSAGE</button>
       </form>
-      <div class="socials">
-         <a href="https://github.com/Hanummmmm" target="_blank">
-        <img src="/assets/github.png" alt="Github">
-        <a href="https://www.instagram.com/hanumwidiaa/" target="_blank">
-        <img src="/assets/instagram.png" alt="Instagram">
-         <a href="https://www.linkedin.com/in/hanum-widianingtias-4a5823382/" target="_blank">
-          <img src="/assets/linkedin.png" alt="LinkedIn">
-        </a>
-        </a>
-       </a>
 
+      <div class="socials">
+        <a href="https://github.com/Hanummmmm" target="_blank">
+          <img src="assets/github.png" alt="Github" />
+        </a>
+        <a href="https://www.instagram.com/hanumwidiaa/" target="_blank">
+          <img src="assets/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/in/hanum-widianingtias-4a5823382/" target="_blank">
+          <img src="assets/linkedin.png" alt="LinkedIn" />
+        </a>
       </div>
     </section>
-  
 
-   
+    <!-- Footer -->
     <footer>
       <p>© 2025 Hanum Widianingtias | All Rights Reserved</p>
     </footer>
