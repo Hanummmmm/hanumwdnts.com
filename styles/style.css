@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +14,7 @@ body {
 
 /* HEADER */
 header {
-  background: #F5F5F5;
+  background: #f5f5f5;
   top: 0;
   z-index: 1000;
   padding: 15px 0;
@@ -114,7 +112,8 @@ nav a:hover {
 }
 
 @keyframes floatUpDown {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -155,8 +154,8 @@ nav a:hover {
 .project-item {
   background-color: #fff;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  width: 280px;            
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
   padding: 20px;
   text-align: center;
   position: relative;
@@ -167,15 +166,23 @@ nav a:hover {
 }
 
 /* urutan animasi biar muncul satu per satu */
-.project-item:nth-child(1) { animation-delay: 0.2s; }
-.project-item:nth-child(2) { animation-delay: 0.4s; }
-.project-item:nth-child(3) { animation-delay: 0.6s; }
-.project-item:nth-child(4) { animation-delay: 0.8s; }
+.project-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.project-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.project-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.project-item:nth-child(4) {
+  animation-delay: 0.8s;
+}
 
 /* hover efek lembut tanpa ubah ukuran */
 .project-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* animasi fade in dari bawah */
@@ -189,8 +196,6 @@ nav a:hover {
     transform: translateY(0);
   }
 }
-
-
 
 /* ABOUT */
 .about {
@@ -215,7 +220,7 @@ nav a:hover {
 
 .about-img:hover {
   transform: scale(1.05) rotate(2deg);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .about p {
@@ -248,7 +253,7 @@ nav a:hover {
 .project-item {
   background-color: #fff;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 280px; /* ukuran tetap */
   padding: 20px;
   text-align: center;
@@ -260,15 +265,23 @@ nav a:hover {
 }
 
 /* animasi muncul satu per satu */
-.project-item:nth-child(1) { animation-delay: 0.2s; }
-.project-item:nth-child(2) { animation-delay: 0.4s; }
-.project-item:nth-child(3) { animation-delay: 0.6s; }
-.project-item:nth-child(4) { animation-delay: 0.8s; }
+.project-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.project-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.project-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.project-item:nth-child(4) {
+  animation-delay: 0.8s;
+}
 
 /* efek hover seperti skill section */
 .project-item:hover {
   transform: scale(1.02) translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* gambar & teks */
@@ -285,13 +298,12 @@ nav a:hover {
 .project-item p {
   font-size: 0.9rem;
   color: #444;
- transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .project-item:hover p {
   transform: scale(1.08);
 }
-
 
 /* animasi fade + zoom lembut */
 @keyframes projectFadeUp {
@@ -304,7 +316,6 @@ nav a:hover {
     transform: translateY(0) scale(1);
   }
 }
-
 
 #skill {
   position: relative;
@@ -340,7 +351,6 @@ nav a:hover {
   transform: scale(1.02);
 }
 
-
 .contact {
   position: relative;
   background: linear-gradient(to top, #cae2f5, #fffaf3);
@@ -368,7 +378,8 @@ form {
   gap: 15px;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 10px 15px;
   border: none;
   border-radius: 15px;
@@ -395,7 +406,6 @@ button {
 button:hover {
   background-color: #426a8f;
 }
-
 
 .socials {
   display: flex;
@@ -425,18 +435,33 @@ footer {
 
 /* ANIMATIONS */
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes bubbleUp {
-  0% { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(-60px); opacity: 0.7; }
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px);
+    opacity: 0.7;
+  }
 }
 
 @keyframes floatUpDown {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
 }
 
 /* RESPONSIVE */
